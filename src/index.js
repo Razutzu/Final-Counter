@@ -11,6 +11,9 @@ client.b = "\033[34m";
 client.y = "\033[33m";
 
 client.ready = false;
+client.timeout = false;
+
+client.lastAuthor = null;
 client.lastNumber = null;
 
 client.log = (color, tag, msg) => {
